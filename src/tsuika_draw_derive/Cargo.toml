@@ -1,0 +1,11 @@
+[package]
+name = "tsuika_draw_derive"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+quote = "1.0.35"
+syn = "2.0.53"
+
+[lib]
+proc-macro = true

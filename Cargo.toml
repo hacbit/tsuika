@@ -1,0 +1,14 @@
+[package]
+name = "tsuika"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crossterm = "0.27.0"
+ratatui = "0.26.1"
+
+[dependencies.tsuika_draw_derive]
+path = "src/tsuika_draw_derive"
+
+[workspace]
+members = ["src/tsuika_draw_derive"]
